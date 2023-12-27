@@ -87,6 +87,12 @@ class _NewExpenseState extends State<NewExpense> {
           ),
           Row(
             children: [
+              // DropdownButton(
+              //   items: Category.values.map(
+              //     (category) => DropdownMenuItem(child: child),
+              //   ),
+              //   onChanged: (value) {},
+              // ),
               ElevatedButton(
                 onPressed: () {
                   Navigator.pop(context);
