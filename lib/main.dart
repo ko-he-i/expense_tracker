@@ -44,7 +44,6 @@ void main() {
               ),
             ),
       ),
-      themeMode: ThemeMode.dark,
       home: const Expenses(),
     ),
   );
